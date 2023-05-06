@@ -1,0 +1,92 @@
+body {
+    background-color: #14213D; 
+}
+.header {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    background-color: #FCA311;
+}
+
+#linkIndex {
+    border: 10px solid #14213D;
+    flex-grow: 1;
+}
+
+#linkAbout {
+    border: 10px solid #14213D;
+    flex-grow: 1;
+}
+
+#linkPortfolio {
+    border: 10px solid #14213D;
+    flex-grow: 1;
+}
+
+.main {
+    display: flex;
+    color: white;
+    font-size: 30px;
+    /* text-align: center;
+    margin: left;
+    display: block; */
+}
+
+p {
+    font-weight: bold;
+    border: 2px solid black;
+    text-align: center;
+    padding: 8%;
+    font-family: 'Rock Salt', cursive;
+}
+
+#mypicture {
+    width: 450px;
+    height: 450px;
+}
+
+.endPage {
+    color: #14213D;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    background-color: #FCA311;
+}
+
+p {
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+.workexp {
+    box-sizing: border-box;
+    background-color: white;
+    width: 300px;
+    border: 15px solid #FCA311;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+div {
+    box-sizing: border-box;
+    background-color: white;
+    width: 300px;
+    border: 15px solid #FCA311;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+        
+}
