@@ -39,38 +39,34 @@ body {
     display: flex;
     color: white;
     font-size: 30px;
-    /* text-align: center;
-    margin: left;*/
+    border: 3px solid black;
+    margin: 2%;
     justify-content: center;
-}
-
-p {
-    font-weight: bold;
-    border: 2px solid black;
     text-align: center;
-    padding: 8%;
+    padding: 1.5%;
     font-family: 'Rock Salt', cursive;
 }
 
 #sectionOne {
     display: flex;
     /* border: 2px solid black; */
+    align-items: center;
 
 }
 
 #mypicture {
     width: 450px;
     height: 450px;
-    justify-content: flex-end;   
+    /* justify-content: flex-end;    */
     order: 2; 
+    /* border: 2px solid black; */
 }
 
 #intro {
-    /* border: 2px solid black; */
     color: white;
     font-family: 'Noto Sans', sans-serif;
     font-size: 25px;
-    padding: 15px;
+    padding-left: 30px;
 }
 
 
@@ -85,33 +81,43 @@ p {
     
 }
 
-p {
+#workexp {
+    width: 33%;
+    background: rgb(215,217,206);
+    background: linear-gradient(90deg, rgba(215,217,206,1) 0%, rgba(17,157,164,1) 100%);
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    font-size: 45px;
     font-weight: bold;
+}
+
+.job {
+    display: flex;     
+    align-items: center; 
+    /* border: 2px solid black;   */
+    font-size: 35px;  
+}
+
+.jobCaption {
     /* border: 2px solid black; */
+    color: white;
+    margin: 2%;
 }
 
-.workexp {
-    box-sizing: border-box;
-    background-color: white;
-    width: 300px;
-    background: rgb(215,217,206);
-    background: linear-gradient(90deg, rgba(215,217,206,1) 0%, rgba(17,157,164,1) 100%);
-
-    padding: auto;
-    margin: auto;
+.jobYears {
+    display: flex;
     text-align: center;
-    font-size: 25px;
     font-weight: bold;
+    width: 100%;
+    margin: 2%;
+    padding: 1%;
+    background: rgb(215,217,206);
+    background: linear-gradient(90deg, rgba(215,217,206,1) 0%, rgba(17,157,164,1) 100%);        
 }
 
-div {
-    box-sizing: border-box;
-    background-color: white;
-    width: 300px;
-    background: rgb(215,217,206);
-    background: linear-gradient(90deg, rgba(215,217,206,1) 0%, rgba(17,157,164,1) 100%);
-    padding: auto;
-    margin: auto;
+h1 {
+    color: white;
     text-align: center;
-        
+    padding: 18%;
 }
