@@ -1,11 +1,12 @@
 body {
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(19,80,91,1) 100%);
+    /* color: white; */
 }
 .header {
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
+    font-size: 4vw;
     text-align: center;
 }
 
@@ -13,7 +14,7 @@ body {
 .links {
     display: flex;
     justify-content: space-around;
-    font-size: 30px;
+    font-size: 2.5vw;
     text-align: center;
     width: 100%;
     background: rgb(215,217,206);
@@ -35,10 +36,15 @@ body {
     flex-grow: 1;
 }
 
+#linkContact {
+    /* border: 10px solid #14213D; */
+    flex-grow: 1;
+}
+
 .main {
     display: flex;
     color: white;
-    font-size: 30px;
+    font-size: 2vw;
     border: 3px solid black;
     margin: 2%;
     justify-content: center;
@@ -51,34 +57,38 @@ body {
     display: flex;
     /* border: 2px solid black; */
     align-items: center;
+    margin: 1%;
+}
 
+.hello{
+    color: white;
+    font-size: 3vw;
 }
 
 #mypicture {
-    width: 450px;
-    height: 450px;
+    width: 28vw;
+    height: auto;
     /* justify-content: flex-end;    */
     order: 2; 
     /* border: 2px solid black; */
 }
 
-#intro {
+.intro {
     color: white;
     font-family: 'Noto Sans', sans-serif;
-    font-size: 25px;
-    padding-left: 30px;
+    font-size: 1.8vw;
+    padding-left: 5%;
 }
 
 
 .endPage {
     color: #14213D;
-    font-size: 20px;
+    font-size: 2vw;
     text-align: center;
-    display: block;
+    display: flex;
     background: rgb(215,217,206);
     background: linear-gradient(90deg, rgba(215,217,206,1) 0%, rgba(17,157,164,1) 100%);
-
-    
+    margin: 2%;    
 }
 
 #workexp {
@@ -88,15 +98,15 @@ body {
     padding: auto;
     margin: auto;
     text-align: center;
-    font-size: 45px;
+    font-size: 3vw;
     font-weight: bold;
 }
 
-.job {
+#job {
     display: flex;     
     align-items: center; 
     /* border: 2px solid black;   */
-    font-size: 35px;  
+    font-size: 1.5vw;  
 }
 
 .jobCaption {
@@ -120,4 +130,26 @@ h1 {
     color: white;
     text-align: center;
     padding: 18%;
+}
+
+#formContainer{
+    display: flex;
+    /* border: 2px solid black; */
+    justify-content: center;
+    color: white;
+    font-size: 2vw;
+    padding: 10vw;;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border: 2px solid black; */
+    flex-direction: column;
+    width: 33vw;
+}
+
+#message{
+    height: 5vw;
 }
